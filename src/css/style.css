@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/backgound.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container form {
+    width: 90%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffffb2;
+    border-radius: 30px;
+
+}
+
+#container form label{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container form label span{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#container form label input{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-bottom: 1px black solid;
+}
+
+#container  form select {
+    height: 30px;
+    background-color: rgb(114, 114, 114);
+    color: wheat;
+    font-weight: bold;
+    text-shadow: 0px 1px black;
+}
+
+#exibir_resultado {
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    color:black;
+    font-size: 25px;
+    text-shadow: 2px 0px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(76, 125, 231);
+    color: wheat;
+    font-weight: bold;
+    font-family: cursive;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightgreen;
+    color: black;
+    scale: 1.1;
+}
+
+.error{
+    background-image: url('../img/erro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.euro{
+    background-image: url('../img/euro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.dolar{
+    background-image: url('../img/dolar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.real{
+    background-image: url('../img/real.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    text-align: center;
+}
+
